@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+
+      .name {
+        width: 20%;
+        margin-left: auto;
+        margin-right: auto;
+        border: solid 1px;
+        margin-top: 100px;
+        background: radial-gradient(yellow, red);
+      }
+
+      .name-wrap {
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .name-center {
+        text-align: center;
+      }
+
+      .log {
+        margin-left: 100px;
+        background-color: blue;
+        width: 50px;
+        height: 25px;
+        border-radius: 20px;
+        border-color: blueviolet;
+        margin-bottom: 5px;
+      }
+
+      .main-site {
+        margin-top: 20px;
+      }
+
+      .link {
+        margin-bottom: 20px;
+      }
+
+      .link p {
+        margin-bottom: 20px;
+      }
+
+      .pass {
+        width: 146px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="name">
+      <div class="name-wrap">
+        <img width="100%" src="images/main-logo.png" alt="logo" />
+        <p class="name-center">Welcome back</p>
+      </div>
+      <form action="">
+        <div class="main-site">
+          <label for="email">Email</label>
+          <input type="email" name="" id="email" />
+        </div>
+
+        <div class="main-site">
+          <label for="passwprd">Password</label>
+          <input type="password" name="" id="password" class="pass" />
+        </div>
+
+        <div class="main-site">
+          <input type="button" value="Login" class="log" />
+        </div>
+
+        <div class="link">
+          <p class="name-center"><a href="">Forgot password</a></p>
+          <p class="name-center">
+            Don't have an account <a href="">Create now</a>
+          </p>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
